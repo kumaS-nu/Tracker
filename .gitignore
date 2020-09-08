@@ -1,0 +1,11 @@
+*
+!*/
+
+!/kumaS Asset/**
+!/kumaS Asset.meta
+
+!/Scenes/Tracker.unity
+!/Scenes/Tracker.unity.meta
+
+!/README.md
+!/.gitignore
