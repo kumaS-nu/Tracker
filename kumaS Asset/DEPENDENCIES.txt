@@ -1,0 +1,19 @@
+-- in Asset Store --
+FastIK @ditzel
+Nuget for Unity @jwittner
+
+-- in Nuget --
+OpenCvSharp4 @shimat
+DlibDotNet @takuya-takeuchi
+
+OpenCvSharp4をNugetで導入した際、OpenCvSharpExtern.dllが入ってない場合があったため、配布しております。
+When OpenCvSharp4 is installed with Nuget, OpenCvSharpExtern.dll may not be included. So OpenCvSharpExtern.dll is distributed.
+ただし、DlibDotNetはdllが入ってない場合があったためDlibDotNet.unitypackageとして配布しています。
+dll may not be included. So DlibDotNet.unitypackage is distributed.
+
+-- other --
+UniVRM @dwango
+Cubism SDK for Unity @Cubism
+uOSC @ hecomi
+VirtualMotionTracker @gpsnmeajp
+SteamVR @Valve

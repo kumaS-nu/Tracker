@@ -1,0 +1,5 @@
+posenet.dllは、Tensolflow lite のAPIを使用し、PoseNetを扱うAPIを作成したdllです。
+
+posenet.dll is a dll that make an API for handling PoseNet using the API of Tensolflow lite.
+
+kumaS
