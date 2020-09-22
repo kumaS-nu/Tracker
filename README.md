@@ -4,13 +4,26 @@ Unity向けのWebカメラ・動画ファイルからフェイストラッキン
 
 [booth](https://kumas.booth.pm/items/1657599)で配布、販売しています。
 
+# 導入
+
+このアセットを使用するだけならboothの方にunitypackageとしてまとまってるのでそちらを使用した方が楽。
+
+コントリビュートとかこれをそのまま入れたいときは、unityのAssetフォルダで、
+
+```shell
+git init
+git remote add origin https://github.com/kumachan0210/Tracker.git
+git pull origin master
+```
+
+としてください。最初はクローズな環境を想定してリポジトリを作っていたので、公開用のこっちがその一つ下のフォルダで作るしかなかったためこんな変な構成になっています。
+
 # 依存ライブラリ
 
 [shimat/opencvsharp](https://github.com/shimat/opencvsharp)
 
 [takuya-takeuchi/DlibDotNet](https://github.com/takuya-takeuchi/DlibDotNet)
 
-[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)(PoseNetを走らせるために使用)
 
 # コントリビュート
 
