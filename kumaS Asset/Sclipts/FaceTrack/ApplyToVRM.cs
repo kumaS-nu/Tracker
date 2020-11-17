@@ -33,8 +33,15 @@ namespace kumaS.FaceTrack
 
             transform.position = tracking.Position;
             transform.rotation = tracking.Rotation;
-            left_eye.localEulerAngles = tracking.LeftEyeRotation;
-            right_eye.localEulerAngles = tracking.RightEyeRotation;
+
+            if(left_eye)
+            {
+                left_eye.localEulerAngles = tracking.LeftEyeRotation;
+            }
+            if(right_eye)
+            {
+                right_eye.localEulerAngles = tracking.RightEyeRotation;
+            }
         }
     }
 }
